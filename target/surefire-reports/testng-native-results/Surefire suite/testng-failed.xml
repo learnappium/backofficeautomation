@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.bacoffice.backofficeUI_Automation_BaseTest.BaseTest">
+        <methods>
+          <include name="thisisTest"/>
+        </methods>
+      </class> <!-- com.bacoffice.backofficeUI_Automation_BaseTest.BaseTest -->
+      <class name="com.backoffice.BackOfficeUI_Automaton.CheckPageUITest">
+        <methods>
+          <include name="CheckUI"/>
+        </methods>
+      </class> <!-- com.backoffice.BackOfficeUI_Automaton.CheckPageUITest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

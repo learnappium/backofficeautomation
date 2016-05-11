@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.526 sec <<< FAILURE! - in TestSuite
+CheckUI(com.backoffice.BackOfficeUI_Automaton.CheckPageUITest)  Time elapsed: 0.022 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy4.click(Unknown Source)
+	at com.backoffice.BackOfficeUI_Automaton.BackOfficeMain.clickOnSignin(BackOfficeMain.java:26)
+	at com.backoffice.BackOfficeUI_Automaton.CheckPageUITest.CheckUI(CheckPageUITest.java:16)
+
