@@ -22,7 +22,7 @@ public class BaseTest {
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 // logger.info("opening url");
-		driver.navigate().to("http://alpha-backoffice.dmg.autodesk.com");
+		driver.navigate().to("myurl");
 		//logger.info("url opened");
 	}
 
