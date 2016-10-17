@@ -27,7 +27,7 @@ public class GenericLoginPage extends BaseTest{
 	WebElement submitButton;
 	
 	public GenericLoginPage enterUsername(){
-		username.sendKeys("superadmin@adsk.com");   
+		username.sendKeys("uruser");   
 		return this;
 	}
 	
@@ -37,7 +37,7 @@ public class GenericLoginPage extends BaseTest{
 	}
 	
 	public GenericLoginPage enterPassword(){
-		password.sendKeys("Aut0d#sk");   
+		password.sendKeys("yourpass");   
 		return this;
 	}
 	
